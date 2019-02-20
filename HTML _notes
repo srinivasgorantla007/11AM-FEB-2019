@@ -1,0 +1,59 @@
+HTML :
+
+ sublimetext 
+
+ File.html 
+
+ browser (HTML+CSS+JS)
+HTML :
+  p: paragraph
+  br: brake line 
+  b : bold text
+  i : italic font style
+
+p : paragraph tag is using for create a paragraph 
+
+<p>Hello UI Development</p>
+
+br : breaking line  </br>
+
+b : bold text
+
+<p><b>Hello UI Development</b></p>
+
+  i : italic font style
+
+  <i>Hello UI Development</i>
+
+del : deleted text  
+
+u : underline text
+
+sub: subscription 
+sup : superscription 
+
+hr : horizontal line 
+
+em : emphesised 
+
+strong: look like bold
+
+DIV : division 
+ nothing but block of elements 
+ div is a container
+
+span : part of text
+
+Attributes :
+ 1. title  : title display in hover
+ 2. style : inline style
+ 3. id : unique identifier (sinle)
+ 4. class : recognization (multiple)
+
+
+
+
+
+
+
+
