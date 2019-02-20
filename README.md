@@ -1,3 +1,3 @@
-# Srinivas-gorantla
+# HTML
 
 for students 
