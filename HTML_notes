@@ -1,0 +1,63 @@
+HTML:
+
+
+https://github.com/srinivasgorantla007/HTML
+
+p
+textformatting
+hr
+div
+span
+headings
+iframe
+hyperlinks
+list items
+img : loading images 
+<img src="path"/>
+<img src="1.png"/>
+<img src="1.jpg"/>
+<img src="1.jpeg"/>
+
+cases 
+
+1. html file and image in same folder
+<img src="1.png"/>
+
+2. images are in separate folder
+
+ root floder -> html
+ rootFolder-> other folder-> images
+
+<img src="foldername/1.png"/>
+
+alt ="text"
+ <img src="foldername/1.png" alt="text"/>
+
+
+3. html and image both are in different folder
+
+ <img src="../foldername/1.png"/>
+
+ ../ is folder jump
+ foldername 
+ image name
+
+table : table tag is using for store data in table format(rows and columns).
+
+ tables are having tablerow(tr) and
+ table column (td)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
