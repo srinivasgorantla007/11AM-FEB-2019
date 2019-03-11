@@ -1,0 +1,1 @@
+document.write(" Hello i am coming from external script");
