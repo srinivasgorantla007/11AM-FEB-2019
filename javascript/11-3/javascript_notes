@@ -1,0 +1,41 @@
+javascript :  
+
+   javascript is a scripting langguage .
+   javascript works with browser 
+
+writing js in HTML 
+
+<script>    code is here    </script>
+
+writing javascript in HTML we can fallow two diffrent ways 
+
+1. internal javascript
+2. external javascript 
+
+1. internal javascript : document specified 
+
+<script >  code   </script>
+
+2. external javascript : application specific 
+
+  sublimetext-> file-> new file->save as ->  file.js 
+   write  js code 
+
+   .js extension is mandatory
+
+  external js access in html :  
+  <script src="file.js"> </script>
+
+  print functionality :
+
+  document.write("hello javascript")
+
+  document is html in javascript 
+  write is a predefined keyword for printing 
+  javascript is casesensitive    
+
+
+
+
+
+

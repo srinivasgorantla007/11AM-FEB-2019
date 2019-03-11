@@ -1,0 +1,16 @@
+z-index :
+
+  z-index value can change element position front and back vice versa 
+
+  syn:
+
+   z-index :10
+   z-index:5
+   z-index:-4
+
+   note : 
+   z-index allows negative values also.
+
+   element shold be in absolute position.
+   
+   if element in static position z-index will not work 
