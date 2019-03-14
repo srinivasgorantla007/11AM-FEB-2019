@@ -1,0 +1,36 @@
+console.log()
+document.write()
+document.getElementById("idName")
+document.getElementsByTagName("TagName")
+document.getElementsByClassName("className")
+.innerHTML
+
+variables :  
+
+ variable is nothing but a simple storage area 
+ variable is a container which can able to store some type of data 
+
+ in javascript all type of data is creating from var keyword 
+
+   var x=10
+   document.write("x value is " + x)
+   o/p :  x value is 10
+
+   var y=20.00
+   document.write("y value is "+ y)
+   o/p : y value is 20.00
+
+   var name="sathyatech"
+   var name='sathyatech'
+   document.write("name value is" + name)
+   o/p: name value is sathyatech
+
+
+
+
+
+
+
+
+
+
