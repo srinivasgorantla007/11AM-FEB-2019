@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click</title>
+	<style type="text/css">
+		button{width: 150px; height: 40px;
+		  background-color: red;
+		  font-size: 20px; 
+		   border-radius: 5px;
+		  padding: 5px; 
+		  color: white;}
+	</style>
+</head>
+<body>
+<button id="btn">ClickMe Once</button>
+<button id="btn1">Double ClickMe </button>
+<button id="btn2">Button </button>
+
+
+<script type="text/javascript">
+	 document.getElementById("btn").addEventListener("click",myFun);
+	 function myFun()
+	 {
+	 	alert("button clicked");
+	 	 document.getElementById("btn").innerHTML="button Clicked"
+	 }
+
+document.getElementById("btn1").addEventListener("dblclick",myFun1);
+	 function myFun1()
+	 {
+	 	alert("button double clicked");
+	 	 document.getElementById("btn").innerHTML="button Clicked"
+	 }
+
+document.getElementById("btn2").addEventListener("mouseover",myFun2);
+	 function myFun2()
+	 {
+	 	 document.getElementById("btn2").innerHTML="Hello"
+	 }
+document.getElementById("btn2").addEventListener("mouseout",myFun3);
+	 function myFun3()
+	 {
+	 	 document.getElementById("btn2").innerHTML="Button"
+	 }
+</script>
+</body>
+</html>
