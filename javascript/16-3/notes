@@ -1,0 +1,51 @@
+in chrome 
+
+To open the dedicated 'Console' panel, either:
+Use the keyboard shortcuts. 
+
+On Windows and Linux: Ctrl + Shift + J.
+
+ On Mac: Cmd + Option + J.
+
+Select the Chrome Menu icon, menu -> More Tools -> JavaScript Console. 
+
+
+Or if the Chrome Developer Tools are already open, press the 'Console' tab.
+
+
+ Fire fox mozilla 
+
+You can open the Firefox Developer Tools 
+with  Ctrl + Shift + I
+
+ F12 on Windows and Linux, 
+
+ Cmd + Opt + I on OS X.
+
+
+document.getElementsByTagName("h1")[0].addEventListener("dblclick",myFun);
+	  function myFun()
+	  {
+	 alert(" you clicked on h1");
+	 document.getElementsByTagName("h1")[0].innerHTML="Single clicked";
+	 document.getElementsByTagName("h1")[0].style.color="black";
+	 document.getElementsByTagName("h1")[0].style.backgroundColor="yellow";
+	 document.getElementsByTagName("h1")[0].style.height="100px";
+	  document.getElementsByTagName("h1")[0].style.width="50%";
+	  document.getElementsByTagName("h1")[0].style.fontSize="40px";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

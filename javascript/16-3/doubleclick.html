@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Click</title>
+	<style type="text/css">
+		h1{ background-color: red; color: white; }
+
+	</style>
+</head>
+<body>
+<h1> Hello Javascript</h1>
+<script type="text/javascript">
+	document.getElementsByTagName("h1")[0].addEventListener("dblclick",myFun);
+	  functon myFun()
+	  {
+	  	alert(" you double clicked on h1");
+	  	document.getElementsByTagName("h1")[0].innerHTML="DoubleClicked";
+	  	document.getElementsByTagName("h1")[0].style.color="black";
+	  document.getElementsByTagName("h1")[0].style.backgroundColor="yellow";
+	  	  	document.getElementsByTagName("h1")[0].style.height="100px";
+	  		document.getElementsByTagName("h1")[0].style.width="50%";
+	  document.getElementsByTagName("h1")[0].style.fontSize="40px";
+
+	  }
+
+</script>
+</body>
+</html>
