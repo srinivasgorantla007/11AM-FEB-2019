@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>focus-blur</title>
+</head>
+<body>
+	<form>
+		UserName :: <input type="text" name="username" placeholder="username" />
+	</form>
+<script type="text/javascript">
+	//alert("ok")
+document.getElementsByTagName("input")[0].addEventListener("focus",myFun)
+	function myFun()
+	{
+	document.getElementsByTagName("input")[0].style.backgroundColor="gray";
+	}
+
+//alert("ok")
+    document.getElementsByTagName("input")[0].addEventListener("blur",myFun1)
+	function myFun1()
+	{
+	document.getElementsByTagName("input")[0].style.backgroundColor="white";
+	}
+</script>
+</body>
+</html>

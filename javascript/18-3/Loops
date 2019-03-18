@@ -1,0 +1,43 @@
+Loops :
+  looops are nothing but itterations 
+
+  javascript provides fallowing type of loops 
+
+  1. while loop
+
+  2. do-while 
+
+  3. for loop 
+
+  4. nested loops 
+
+  5. break 
+
+  6. continue 
+
+  7. for in (enumeration)
+
+  while : 
+
+       var i=0 ;   // init 
+       while (i<10)  // condition
+       {
+         document.write("i value is "+ i)
+         i++;   // inc dec
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mouseover</title>
+</head>
+<body>
+	<h3> Hello Javascript </h3>
+
+<script type="text/javascript">
+	document.getElementsByTagName("h3")[0].addEventListener("mouseover",myFun)
+	function myFun()
+	{
+	document.getElementsByTagName("h3")[0].style.color="red";
+document.getElementsByTagName("h3")[0].style.backgroundColor="yellow";
+	}
+
+	document.getElementsByTagName("h3")[0].addEventListener("mouseout",myFun1)
+	function myFun1()
+	{
+	document.getElementsByTagName("h3")[0].style.color="black";
+document.getElementsByTagName("h3")[0].style.backgroundColor="white";
+	}
+
+</script>
+</body>
+</html>

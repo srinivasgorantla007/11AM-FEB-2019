@@ -1,0 +1,38 @@
+mousover :  this is javascript mouse event by user 
+
+when user do mouseover on any element this event will get trigger.  
+this event have eventhandler with custom function.
+
+Eventname :  mouseover
+
+mousout :  this is javascript mouse event by user. 
+
+when user do mouseout on any element this event will get trigger.  
+this event have eventhandler with custom function.
+
+Eventname :  mouseout
+
+focus :  focus is a javascript event which will get work on textboxes 
+         :  when user click inside textbox focus event will get trigger 
+
+ eventname:  focus 
+
+
+ blur :  blur is a javascript event which will get work on textboxes 
+         :  when user click outside textbox blur event will get trigger 
+
+ eventname:  blur 
+
+ Note : these two events mostly we can use in forms.
+
+
+
+
+
+
+
+
+
+
+
+
