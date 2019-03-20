@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Focus-blur</title>
+</head>
+<body>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+UserName <input type="text" name="" placeholder="UserName"></br>
+<script type="text/javascript">
+	 // document.getElementsByTagName('input')[0].addEventListener("focus", fun1);
+	 //  document.getElementsByTagName('input')[0].addEventListener("blur", fun2);
+
+     // document.write(document.getElementsByTagName("input").length)
+     // document.write("<br>");
+
+	 for (var i = 0; i < document.getElementsByTagName("input").length; i++) {
+
+     // document.write("i value is ::" + i);
+     // document.write("<br>");
+
+  document.getElementsByTagName("input")[i].addEventListener("focus",fun1);	
+   document.getElementsByTagName("input")[i].addEventListener("blur",fun2);	
+	function fun1()
+ {
+      //this.style.backgroundColor="gray";
+      this.style.borderStyle="solid"
+      this.style.borderColor="red"
+      this.style.borderWidth="5px";
+ }	  
+  function fun2()
+  {
+     // this.style.backgroundColor="";
+       this.style.borderStyle=""
+      this.style.borderColor=""
+      this.style.borderWidth="";
+  }
+
+	 }
+ 
+
+</script>
+</body>
+</html>

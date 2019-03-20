@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<style type="text/css">
+		img{ width: 150px; height: 100px; }
+	</style>
+</head>
+<body>
+<img src="1.jpg">
+<img src="1.jpg">
+<img src="1.jpg">
+<img src="1.jpg"><br>
+<script type="text/javascript">
+ document.write("Images length is ::" +document.getElementsByTagName("img").length)
+	   // for (var i = 0; i < Things.length; i++) {
+	   // 	Things[i]
+	   // }
+ document.getElementsByTagName("img")[0].addEventListener("click", myFun)
+document.getElementsByTagName("img")[1].addEventListener("click", myFun)
+document.getElementsByTagName("img")[2].addEventListener("click", myFun)
+document.getElementsByTagName("img")[3].addEventListener("click", myFun) 
+    function myFun()
+    {
+
+    	//alert(" you clicked on image");
+    	document.getElementsByTagName("img")[0].style.borderStyle="solid";
+    	document.getElementsByTagName("img")[0].style.borderWidth="5px";
+    	document.getElementsByTagName("img")[0].style.borderColor="yellow";
+ 
+
+    }	   
+</script>
+</body>
+</html>
