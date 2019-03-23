@@ -1,0 +1,52 @@
+<!-- Select Option :
+
+       <select name="courses" >
+            <option> HTML</option>
+             <option>CSS</option>
+             <option>JS</option>
+              <option> jQuery</option>
+             <option>BS</option>
+             <option>React</option>
+        </select>
+
+     change is a javascript event to work on selectoption   
+     
+     with change event we can able to select single vlaue or mutiple values also  -->
+     <!DOCTYPE html>
+     <html>
+     <head>
+     	<title>Select option</title>
+     </head>
+     <body>
+     <h1>JavaScript - DropDownList</h1>
+
+		<select id="drp1">
+			<option>Choose Country</option>
+			<option>India</option>
+			<option>UK</option>
+			<option>US</option>
+			<option>PAK</option>
+			<option>PHILIPINES</option>
+		</select>
+
+		<br><br>
+
+		You selected: <span id="span1"></span>
+
+ <script type="text/javascript">
+
+	document.getElementById("drp1") .addEventListener("change", fun1);
+
+      function fun1()
+	{
+  	document.getElementById("span1").innerHTML = document.getElementById("drp1").value;
+  	 
+  	  if (document.getElementById("drp1").value == "Choose Country")
+  	  {
+  	  	document.getElementById("span1").innerHTML = "";
+  	  }
+			}
+		</script>
+
+     </body>
+     </html>

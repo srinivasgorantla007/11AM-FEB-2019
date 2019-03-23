@@ -1,0 +1,44 @@
+<!-- checkbox : change event
+options 
+  true  (checking)
+  false (un checking)
+
+  checked (true ,false) -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check box</title>
+</head>
+<body>
+
+		<h1>JavaScript - CheckBox</h1>
+		<input type="checkbox" id="chk1">
+		<label for="chk1">I accept license agreement</label>
+		<br>
+		<input type="submit" id="btn1" disabled="disabled">
+
+		<script type="text/javascript">
+		
+			document.getElementById("chk1").addEventListener("change", fun1);
+				document.getElementById("btn1").style="background-color:yellow";
+
+			function fun1()
+			{
+				var b = document.getElementById("chk1").checked;
+
+				if (b == true)
+				{
+					document.getElementById("btn1").disabled = "";
+					document.getElementById("btn1").style="background-color:red";
+
+				}
+				else
+				{
+					document.getElementById("btn1").disabled = "disabled";
+					document.getElementById("btn1").style="background-color:yellow";
+				}
+			}
+		</script>
+
+</body>
+</html>

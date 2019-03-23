@@ -1,0 +1,12 @@
+keyup :  when we are keyup in side keyboard this event will get trigger .
+
+keypress : when we are keypress in side keyboard this event will get trigger. 
+
+change :  radiobutton 
+               checkbox 
+               selectoption  we can able change values using change event 
+keyup,keypress will work only for text inputs .
+
+value :  value method is using for capture value from text inputs.
+parseInt() : this is a javascript method convert text data into integer
+
