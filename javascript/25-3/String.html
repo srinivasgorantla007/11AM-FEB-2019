@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> String</title>
+</head>
+<body>
+<script type="text/javascript">
+	var firstName="Sathya"
+	var lastName="Tech"
+	var fullName= firstName+lastName;
+	document.write("full name is ::" +  fullName)
+    document.write("<br>")
+   document.write("full name in uppercase ::" +  fullName.toUpperCase())
+    document.write("<br>")
+   document.write("full name in lowercase ::" +  fullName.toLowerCase())
+    document.write("<br>")
+    document.write("full name length is ::" +  fullName.length)
+        document.write("<br>")
+    var ch = fullName.charAt(5);
+	document.write(" Fifth char is ::" + ch);
+    document.write("full name length is ::" +  fullName.length)
+        document.write("<br>")
+    var ch = fullName.charCodeAt(5); // ASCII
+	document.write(" Fifth char code is ::" + ch);
+        document.write("<br>")
+	var n = fullName.indexOf("y");
+document.write("index of y is ::" + n);
+        document.write("<br>")
+
+ 	var s1 = "Hyderabad is one of the cities in India ";
+			var s2 = "Hyderabad";
+			var s3 = "Chennai";
+			var s4 = s1.replace(s2,s3);
+document.write(s4); //Chennai is one of the cities in India
+
+        document.write("<br>")
+
+	var s1 = "Hyderabad";
+			var n1 = 2;
+			var n2 = 6;
+			var s2 = s1.slice(n1, n2);
+			document.write(s2); //dera
+
+        document.write("<br>")
+
+var s1 = "How are you you you you";
+			    document.write(s1.length);
+               document.write("<br>");
+               
+			var a = s1.split(' ');
+             document.write(a.length);
+             document.write("<br>");
+
+			for(var i=0; i < a.length; i++)
+			{
+				document.write(a[i]);
+				document.write("<br/>");
+			}
+			             document.write("<br>");
+	var s1 = "          Hyderabad is one of the cities in India.     ";
+			var s2 = s1.trim(); // remove all spaces from JS statement.
+
+			var n1 = s1.length;
+			var n2 = s2.length;
+             document.write("<br>");
+      document.write("before trim ::" + n1)
+                   document.write("<br>");
+      document.write("before trim ::" + n2)
+
+
+
+
+</script>
+</body>
+</html>

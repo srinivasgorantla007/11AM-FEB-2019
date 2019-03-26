@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>date</title>
+</head>
+<body>
+<script type="text/javascript">
+	var d=new Date()
+	document.write("complete date Format ::" + d);
+// Tue Mar 26 2019 11:40:50 GMT+0530 (India Standard Time)
+
+  document.write("<br>")
+ document.write("only date : " +  d.toLocaleDateString() )
+
+ document.write("<br>")
+ document.write("only Time : " +  d.toLocaleTimeString() )
+
+ document.write("<br>")
+
+ var n = d.getTime();
+  //milliseconds since 01.01.1970
+document.write("Only time ::" + n); //1444533023043
+//Note:  1000 milli sec = 1 sec
+ document.write("<br>")
+
+	var n = d.getDay();
+document.write("only day :" + n); 
+			/*Note:
+				Sunday = 0
+				Saturday = 6
+			*/
+ document.write("<br>")
+
+var s = d.getDate();
+	document.write("only date ::" + s);			
+ document.write("<br>")
+
+var s = d.getMonth();
+	document.write("only Month ::" + s);	
+
+ document.write("<br>")
+ var s = d.getFullYear();
+	document.write("only Year ::" + s);
+
+ document.write("<br>")
+ var s = d.getSeconds();
+	document.write("only Seconds ::" + s);	
+
+	document.write("<br>");
+ var s = d.getMinuits();
+	document.write("only Minuits ::" + s);
+
+	document.write("<br>");
+ var s = d.getHours();
+	document.write("only Hours ::" + s);
+		document.write("<br>");
+
+	 var s = d.getMilliseconds();
+	document.write("only Milliseconds ::" + s);
+
+</script>
+</body>
+</html>

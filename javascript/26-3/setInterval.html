@@ -1,0 +1,36 @@
+<!-- setInterval
+
+  Set interval for any Object:
+  usecase :
+    changing images 
+    slider move 
+    change offers in paytm
+    change offers in amazon
+ -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Set Interval</title>
+ </head>
+ <body onload="fun1()">
+ <script type="text/javascript">
+
+			function fun1()
+			{
+				setInterval(fun2, 1000);
+			}
+
+			function fun2()
+			{
+                var color = '#'; // hexadecimal starting symbol
+                var letters = ['000000','FF0000','00FF00','0000FF','FFFF00','00FFFF','FF00FF','C0C0C0']; //Set your colors here
+                color += letters[Math.floor(Math.random() * letters.length)];
+                document.body.style.background = color; 
+
+                // Setting the random color on your div element.
+
+    			}
+		</script>
+
+ </body>
+ </html>

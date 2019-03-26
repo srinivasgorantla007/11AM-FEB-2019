@@ -1,0 +1,9 @@
+javascript  strings :
+
+ in javascript strings are declared using with singlecode  and doublecodes 
+ var str = 'hello js'
+ var str=" hello js "
+
+ String Concat : adding two strings 
+ 
+
