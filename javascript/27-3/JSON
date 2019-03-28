@@ -1,0 +1,65 @@
+JSON :
+ JSON means javascript object notation.
+ JSON files Can saved as  .json format 
+ JSON is a data storage syntax.
+ JSON will be available in two different formats.
+  1. JSONArray
+  2. JSONObject
+JSON is language independent.
+JSON is platform independent.
+web applications, mobile applications 
+Desktop Applications 
+JSON is eaesy to read and write.
+JSON fast in performance
+JSON less in size .
+
+  1. JSONArray :  
+
+  [
+        { }, { },{ } , { }, { }
+  ]
+
+  2. JSONObject  : 
+
+  { K:V , K:V,K:V,K:V K:V }
+
+JSON Object Rules :
+
+ 1. Object should be     {     }
+
+2. key and value separated with colon   : 
+
+3. every key-value pair  separated with comma
+
+4. last key-value pair does not have comma 
+
+5. key must be a string type 
+
+6. value can be any type (String,Number,Array,Object,null) 
+
+http://json.org/
+
+JSON : 
+
+JSON (JavaScript Object Notation) is a lightweight data-interchange format.
+
+ It is easy for humans to read and write. 
+
+ It is easy for machines to parse and generate.
+
+It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999.
+
+JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. 
+
+These properties make JSON an ideal data-interchange language.
+
+
+
+
+
+
+
+
+
+
+

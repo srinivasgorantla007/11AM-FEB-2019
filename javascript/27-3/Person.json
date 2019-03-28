@@ -1,0 +1,7 @@
+{
+	"name":"srikanth",
+	"age":32,
+	"salary":45000,
+	"Qual" : "MCA",
+	"technologies":["HTML","CSS","JS"]
+}
