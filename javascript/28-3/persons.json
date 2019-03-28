@@ -1,0 +1,24 @@
+[
+	{
+	"name":"srikanth",
+	"age":32,
+	"salary":45000,
+	"Qual" : "MCA",
+	"technologies":["HTML","CSS","JS"]
+},
+{
+	"name":"Srinivas",
+	"age":31,
+	"salary":42000,
+	"Qual" : "Btech",
+	"technologies":["HTML","CSS"]
+},
+{
+	"name":"Sneha",
+	"age":30,
+	"salary":47000,
+	"Qual" : "MCA",
+	"technologies":["HTML","CSS","JS","jQuery"]
+}
+]
+

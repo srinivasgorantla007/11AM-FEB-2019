@@ -1,0 +1,11 @@
+JSON Array Rules :
+
+ JSON Array opens with [   closes        with     ]
+
+ values are separated with comma 
+
+ last value doesnot have comma 
+
+ value can be any datatype .
+
+ 
