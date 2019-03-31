@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create JSON string from a JavaScript Array.</h2>
+<p id="demo"></p>
+<script>
+var employees = [
+{ name: "Srikanth", age: 30, city: "Hyderabad" },
+{ name: "Srinivas", age: 31, city: "Chennai" },
+{ name: "Suresh", age: 34, city: "Mumbai" }
+]
+
+
+var myJSON = JSON.stringify(employees);
+document.getElementById("demo").innerHTML = myJSON;
+console.log(myJSON)
+</script>
+
+</body>
+</html>
