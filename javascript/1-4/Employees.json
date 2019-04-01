@@ -1,0 +1,54 @@
+[
+{
+"employee_id": "1000",
+"first_name": "John",
+"last_name": "Doe",
+"email": "JohnDoe@knowstack.com",
+"phone_number": "408-000-0000",
+"salary": 713077,
+"year_exp": 30,
+"designation": "Senior Director",
+"department": "Finance"
+},
+{
+"employee_id": "1000",
+"first_name": "John",
+"last_name": "Doe",
+"email": "JohnDoe@knowstack.com",
+"phone_number": "408-000-0000",
+"salary": 713077,
+"year_exp": 30,
+"designation": "Senior Director",
+"department": "Finance"
+},{
+"employee_id": "1000",
+"first_name": "John",
+"last_name": "Doe",
+"email": "JohnDoe@knowstack.com",
+"phone_number": "408-000-0000",
+"salary": 713077,
+"year_exp": 30,
+"designation": "Senior Director",
+"department": "Finance"
+},{
+"employee_id": "1000",
+"first_name": "John",
+"last_name": "Doe",
+"email": "JohnDoe@knowstack.com",
+"phone_number": "408-000-0000",
+"salary": 713077,
+"year_exp": 30,
+"designation": "Senior Director",
+"department": "Finance"
+},{
+"employee_id": "1000",
+"first_name": "John",
+"last_name": "Doe",
+"email": "JohnDoe@knowstack.com",
+"phone_number": "408-000-0000",
+"salary": 713077,
+"year_exp": 30,
+"designation": "Senior Director",
+"department": "Finance"
+}
+]

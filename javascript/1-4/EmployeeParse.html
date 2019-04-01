@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON.parse() Employee</title>
+</head>
+<body>
+
+<script type="text/javascript">
+ // 1. init JSON Object
+ var jsonobj='{"name":"srikanth","age":34,"salary":43000,"technologies":["html","css","js","jQuery","react"],"isGraduated":true}';
+
+	// 2. create  a javascript object and parse json file 
+ var jsobj = JSON.parse(jsonobj);
+ // printing count value
+document.write("name value is::" + jsobj.name)
+document.write("<br>")
+ // printing result value
+document.write("age value is::" + jsobj.age)
+document.write("<br>")
+document.write("salary value is::" + jsobj.salary)
+document.write("<br>")
+document.write(" technologies are :: ") 
+document.write("<ol><li>" + jsobj.technologies[0] + "</li><li>" + jsobj.technologies[1] + "</li><li>"  + jsobj.technologies[2] + "</li><li>" +jsobj.technologies[3] + "</li></ol>"  )
+document.write(" isGraduated::" + jsobj.isGraduated)
+document.write("<br>")
+
+</script>
+</body>
+</html>

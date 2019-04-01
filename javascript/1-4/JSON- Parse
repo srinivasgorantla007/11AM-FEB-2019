@@ -1,0 +1,29 @@
+JSON : javascript Object notation 
+
+JSON is using for store and transport data b/w client server 
+
+JSON web and mobile 
+
+JSON is light weight 
+
+JSON is a data format 
+
+JSON available in two different formats  1. Array 2. Object
+ JSON Array :  [ collection of values ]
+ JSON Object  :  { collection of k-v pairs }
+ value : String,Number ,Float,Boolean ,array,object,null
+ key must be string
+
+HTML(JSObject) into JSON Object
+HTML (JSArray) into JSON Array 
+
+
+JS ---->   JSON     :  JSON.stringify()
+JSON ------>   JS  :  JSON.parse()
+
+
+https://developer.mozilla.org
+
+
+
+

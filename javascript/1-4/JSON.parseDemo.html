@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON.parse()</title>
+</head>
+<body>
+
+<script type="text/javascript">
+ // 1. init JSON Object
+ var jsonobj = ' {"result":true, "count":42} ';
+ // 2. create  a javascript object and parse json file 
+ var jsobj = JSON.parse(jsonobj);
+ // printing count value
+document.write("count value is::" + jsobj.count)
+console.log(jsobj.count);
+document.write("<br>")
+ // printing result value
+document.write("result value is::" + jsobj.result)
+console.log(jsobj.result);
+
+</script>
+</body>
+</html>
